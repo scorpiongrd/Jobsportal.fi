@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<robot generated="20190609 11:16:21.826" generator="Robot 3.0.4 (Python 2.7.15 on darwin)">
+<suite source="/Users/huydongpham/PycharmProjects/Jobsportal/Test/Jobsportal.robot" id="s1" name="Jobsportal">
+<test id="s1-t1" name="Open Browser">
+<kw name="http://www.jobsportal.fi">
+<arguments>
+<arg>Chrome</arg>
+</arguments>
+<msg timestamp="20190609 11:16:22.062" level="FAIL">No keyword with name 'http://www.jobsportal.fi' found.</msg>
+<status status="FAIL" endtime="20190609 11:16:22.062" starttime="20190609 11:16:22.062"></status>
+</kw>
+<status status="FAIL" endtime="20190609 11:16:22.063" critical="yes" starttime="20190609 11:16:22.055">No keyword with name 'http://www.jobsportal.fi' found.</status>
+</test>
+<test id="s1-t2" name="Sleep">
+<kw name="3s">
+<msg timestamp="20190609 11:16:22.070" level="FAIL">No keyword with name '3s' found.</msg>
+<status status="FAIL" endtime="20190609 11:16:22.070" starttime="20190609 11:16:22.070"></status>
+</kw>
+<status status="FAIL" endtime="20190609 11:16:22.070" critical="yes" starttime="20190609 11:16:22.064">No keyword with name '3s' found.</status>
+</test>
+<test id="s1-t3" name="Close Browser">
+<status status="FAIL" endtime="20190609 11:16:22.072" critical="yes" starttime="20190609 11:16:22.071">Test case contains no keywords.</status>
+</test>
+<doc>This is some basic information</doc>
+<status status="FAIL" endtime="20190609 11:16:22.073" starttime="20190609 11:16:21.831"></status>
+</suite>
+<statistics>
+<total>
+<stat fail="3" pass="0">Critical Tests</stat>
+<stat fail="3" pass="0">All Tests</stat>
+</total>
+<tag>
+</tag>
+<suite>
+<stat fail="3" id="s1" name="Jobsportal" pass="0">Jobsportal</stat>
+</suite>
+</statistics>
+<errors>
+</errors>
+</robot>
