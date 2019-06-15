@@ -1,4 +1,4 @@
 .idea/
 venv/
-.xml/
-.html/
+.xml
+.html
