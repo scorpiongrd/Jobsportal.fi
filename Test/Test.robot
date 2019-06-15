@@ -1,20 +1,19 @@
 *** Settings ***
+Library  SeleniumLibrary
 Documentation  Check major links
-Resource  ../Resources/jpcommon.robot
-Resource  ../Resources/jpapp.robot
-Test Setup  Begin Web Test
-Test Teardown  End Web Test
+Library  ../Library/WebLibrary.py
+Library  ../Library/Common.py
 
 *** Variables ***
 
 
 
 *** Test Cases ***
-Show all jobs
-    jpcommon.Load
-    jpapp.Show all jobs by location
-    jpapp.Show all jobs by company
-    jpapp.Show all jobs by role
-
-
+Show jobs by clicking links in footer
+    open browser and load homepage
+    accept cookie
+    verify user can access jobs by all locations in footer  #jobs by location
+    verify user can access jobs by all companies in footer  #jobs by company
+    verify user can access jobs by all keywords in footer  #jobs by keywords
+    end web test
 
